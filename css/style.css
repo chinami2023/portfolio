@@ -355,6 +355,11 @@ max-width: 60%;
  text-decoration: none;
 }
 
+.cp_arrows *, .cp_arrows *:before, .cp_arrows *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 /* About Me */
 .name::after{
   content: url(../img/small-logo.png);
