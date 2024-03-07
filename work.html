@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/udr2uyo.css">
+    <meta name="keywords" content="Japanese front end deveroper, junior front end deveroper, portfolio, BCIT student">
+    <meta name="description" content="I stay close to people,listen carefully to their words, and create a website that will please them. This is a portfolio website of junior front end deveroper, Chinami Harashima. This page introduces four projects that I worked in BCIT program.">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Portfolio -Work-</title>
+
+    <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/efd2ff2659.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+  <title>portfolio - Work</title>
+</head>
+
+<body class="project">
+    <header>
+      <div class="wave">
+        <div class="logo-name">
+          <a href="index.html">
+          <h2>CHINAMI<br>
+          HARASHIMA</h2>
+          </a>
+        </div>
+        <nav class="mobile-menu">
+            <a href="#" class="hamburger"><i class="fa-solid fa-bars fa-lg"></i><i class="fa-solid fa-xmark fa-lg" style="display:none"></i></a>
+            <ul>
+              <!-- <li><a href="#">Home</a></li> -->
+              <li><a href="work.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+          
+          <nav class="main-menu">
+            <ul>
+              <!-- <li><a href="#">Home</a></li> -->
+              <li><a href="work.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- wave animation -->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <path id="wave" d=""/>
+        </svg>
+        <!-- wave animation -->
+    </header>
+
+    <section class="s-1">
+        <h1 class="h1center">
+            My Projects 
+        </h1>
+
+        <h3 class="padding-t7">Web Development</h3>
+
+        <div class="container">
+          <!-- grid1 -->
+          <div class="grid">
+            <div class="col-12 col-6-md textcenter huwa">
+              <a href="project1.html">
+                <img src="img/project1.png" alt="Ina cafe website" class="margin-t2">
+              </a>
+              <div class="w600">
+                <p class="textleft">Cafe website<br class="sp_br">(Desktop/Mobile)</p>
+                </div>
+              </div>
+              
+              <div class="col-12 col-6-md textcenter huwa">
+                <a href="project2.html">
+                <img src="img/project2.png" alt="Event website" class="margin-t2">
+                </a>
+              <div class="w600">
+                <p class="textleft">Event website</p>
+                </div>
+              </div>
+              </div>
+
+              <!-- grid2 -->
+              <div class="grid">
+                <div class="col-12 col-6-md textcenter huwa">
+                  <a href="project5.html">
+                    <img src="img/project5.png" alt="AsiaBite website" class="margin-t2">
+                  </a>
+                  <div class="w600">
+                    <p class="textleft">Onlineshop website<br class="sp_br">(Desktop/Mobile)</p>
+                    </div>
+                  </div>
+                  
+                  <div class="col-12 col-6-md textcenter huwa">
+                    <a href="project6.html">
+                    <img src="img/project6.png" alt="#" class="margin-t2">
+                    </a>
+                  <div class="w600">
+                    <p class="textleft">Company website</p>
+                    </div>
+                  </div>
+                  </div>
+
+              
+        </div>
+
+      <h3 class="padding-t7">Design</h3>
+
+      <div class="container">
+        <div class="grid">
+          <div class="col-12 col-6-md textcenter huwa">
+            <a href="project3.html">
+              <img src="img/project3.png" alt="flower shop website design" class="margin-t2">
+            </a>
+            <div class="w600">
+              <p class="textleft" >Flower shop<br class="sp_br">website design</p>
+              </div>
+            </div>
+            
+            <div class="col-12 col-6-md textcenter huwa">
+              <a href="project4.html">
+              <img src="img/project4.png" alt="product poster" class="margin-t2">
+            </a>
+            <div class="w600">
+              <p class="textleft">Product design</p>
+              </div>
+            </div>
+            </div>
+      </div>
+    </section>
+
+     <!-- button go to top-->
+     <div id="page_top"><a href="#"></a></div>
+
+
+    <footer>
+      <div class="footer-div">
+        <div class="footer-icon">
+          <ul>
+          <li><a href="https://www.linkedin.com/in/chinami-harashima-62942a247/"><img src="img/linkedin.svg" width="30" height="30" alt="linkedin icon"></a></li>
+          <li><a href="https://www.instagram.com/thousandwaves2020/"><img src="img/instagram.svg" width="30" height="30" alt="instagram icon"></a></li>
+          <!-- <li><a href=""><img src="img/facebook.svg" width="30" height="30"></a></li> -->
+        </ul>
+        </div>
+      <a href="mailto:info&#64;portfolio.chinamiharashima.com">info&#64;chinamiharashima.com</a>
+      <p class="padding-b2">&copy; 2023 Chinami Harashima</p>
+    </div>
+    </footer>
+
+    <!-- ---faid in-- -->
+    <script type="text/javascript">
+      const targets = document.getElementsByClassName('huwa');
+      for(let i = targets.length; i--;){
+       let observer = new IntersectionObserver((entries, observer) => {
+        for(let j = entries.length; j--;){
+         if (entries[j].isIntersecting) {
+          entries[j].target.classList.add('active');
+         } else{
+          entries[j].target.classList.remove('active');
+         }
+        }
+       });
+       observer.observe(targets[i]);
+      }
+      </script>
+ <!-- ---faid in-- -->
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- wave -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
+<!-- wave -->
+<script src="js/main.js"></script>
+</body>
+    
+</html>

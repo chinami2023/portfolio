@@ -1,0 +1,812 @@
+
+/* font */
+/* @import url('https://fonts.googleapis.com/css?family=Merienda'); */
+
+/* common */
+h1,h2,h3,small{
+  font-family: "halcom", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #262228;
+}
+
+.h1center{
+  text-align: center;
+}
+
+h2, h3, h4{
+  text-align: center;
+}
+
+h2{
+  font-size: 8rem;
+  padding: 2rem 0;
+}
+
+h3{
+  padding: 2rem 0;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+body{
+  max-width: 100%;
+}
+
+
+p,a{
+  font-family: "halcom", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #262228;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.textleft{
+  text-align: left;
+}
+
+section{
+  margin-bottom: 10rem;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.wave{
+  background-image: url('../img/head-wave2.jpg');
+  width: 100%;
+  /* height: 500px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: contain; */
+  aspect-ratio: 2000/500;
+}
+
+.logo-name{
+  position: absolute;
+  width: 298px;
+  height: 143px;
+  background-image: url('../img/logo-name.svg');;
+  background-size: cover;
+}
+
+.logo-name a {
+  text-decoration: none;
+}
+
+.logo-name h2 {
+  font-size: 36px;
+  padding: 10px 20px;
+}
+
+/* navgation */
+nav{
+	text-align: right;
+}
+
+ul{
+	margin-bottom: 0;
+}
+
+nav ul li{
+	display:block;
+	/* margin-bottom:0; */
+}
+
+nav a{
+	display:block;
+	padding: 22px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+.main-menu{
+	display:none;
+}
+
+.mobile-menu ul {
+	display:none;
+}
+
+.hamburger, .hamburger:hover{
+	text-align: right;
+	color: #fff;
+}
+/* navgation - end */
+
+footer{
+  background-image: url(../img/footer-wave.jpg);
+  width: 100%;
+  /* height: 500px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: contain; */
+  aspect-ratio: 2000/500;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+footer p{
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 14px;
+}
+
+footer .padding-b2{
+  padding-bottom: 2rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+footer .footer-icon ul{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+
+footer .footer-icon ul li{
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.br-sm{
+  display: none;
+}
+
+.textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.huwa{
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 1.5s, transform 1s;
+}
+.huwa.active {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+/* margin, padding */
+
+.margin-t1{
+  margin-top: 1rem;
+  }
+
+.margin-t2{
+margin-top: 2rem;
+}
+
+.margin-t3{
+    margin-top: 3rem;
+    }
+
+.margin-5rem{
+  margin-bottom: 5rem;
+}
+
+.padding-1{
+  padding: 1rem 1rem;
+}
+
+.padding-t7{
+  padding-top: 7rem;
+}
+
+/* margin, padding */
+/* common */
+
+
+/* main */
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home .s-1{
+  text-align: center;
+}
+
+.home .s-1 .fadein {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.4;
+  opacity: 0;
+  animation: fadein 6s ease forwards;
+}
+@keyframes fadein {
+  100% {  opacity: 1;}
+}
+
+
+.logo{
+  margin-top: 48px;
+}
+
+.home .s-2 h2{
+  letter-spacing: 12px;
+}
+
+.home .s-2 img{
+  width: 90%;
+}
+
+.home .s-2 .ume{
+  text-align: center;
+}
+
+.home .s-3{
+  width: 100%;
+}
+
+.home .s-3 .container{
+  position: relative;
+  width: 100%;
+}
+
+.home .about-title h2{
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  width: 52%;
+  height: auto;
+}
+
+.home .about-img img{
+max-width: 60%;
+}
+
+.home .s-3 h2{
+  text-align: left;
+  font-weight: bold;
+  font-size: 8rem;
+  letter-spacing: 0.17em;
+  display: inline-block
+}
+
+
+.home .s-3 .text-box{
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+}
+
+.home .s-3 .text{
+  font-size: 23px;
+  text-align: right;
+  padding-right: 42px;
+  padding-bottom: 14px;
+}
+
+.home .s-3 .text-box a{
+  text-align: right;
+  text-decoration: none;
+}
+
+.home .s-3 .arrow{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home .s-3 .arrow img{
+  width: 30%;
+  padding-right: 16px;
+}
+
+.home .s-3 .arrow a{
+ justify-content: flex-end;
+ text-decoration: none;
+}
+
+/* About Me */
+.name::after{
+  content: url(../img/small-logo.png);
+  display: inline-block;
+  vertical-align: middle;
+  transform: scale(0.6);
+}
+
+.about .s-1 img{
+  width: 76%;
+}
+
+.shivering {
+  animation: shivering 2s linear infinite;
+}
+
+/* shivering */
+@keyframes shivering {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+.imgme img{
+  position: relative;
+}
+
+.fluid {
+  width: 25%;
+  height: 38vh;
+  background:#0bd;
+  animation: fluidrotate 30s ease 0s infinite;
+  position: absolute;
+  right: 14%;
+  aspect-ratio: 4/3;
+}
+
+@keyframes fluidrotate {  
+
+  0%, 100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+}
+5% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+}
+28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+}
+42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+}
+56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+}
+70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+}
+}
+
+.about h1{
+  letter-spacing: 12px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.about .text-2{
+  font-size: 2rem;
+  letter-spacing: 10px;
+}
+
+.about .name{
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 10px;
+  width: 100%;
+}
+
+.about .s-2 img{
+width: 100%;
+}
+
+.home .s-2 .w70{
+  width: 70%;
+}
+
+.about .s-2 p{
+  line-height: 32px;
+}
+
+.about .s-3 {
+  text-align: center;
+}
+
+.about .s-3 img{
+  /* width: 50%; */
+  max-width: 100%;
+  padding: 32px;
+}
+
+.about .s-4{
+  text-align: center;
+}
+
+.about .s-4 h4{
+  font-weight: 600;
+}
+
+
+.about .s-4 p{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 32px;
+  padding-top: 1rem;
+}
+
+/* About Me  - End */
+
+
+/* work page*/
+.project .s-1 img{
+padding: 0 2rem;
+max-width: 100%;
+}
+
+.project .s-1 .w600{
+  width: 600px;
+}
+
+.project .s-1 .w600 p{
+  width: 80%;
+  padding: 2rem 1rem;
+  }
+
+/* work - end*/
+
+
+/* project-1 */
+.project-img{
+  width: 90%;
+}
+
+.project-1 .s-1 a{
+  text-decoration: none;
+  text-align: left;
+}
+
+.project-1 .textleft{
+  line-height: 32px;
+}
+
+.project-1 h4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.project-1 .s-1 p{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+
+/* project-1 end */
+
+/* @media (min-width: 768px) {
+  .about .s-3 img{
+    max-width: 80%;
+  }
+} */
+
+/* responsive -  568px ↑ */
+@media (min-width: 568px) {
+
+  .br-sm{
+    display: block;
+  }
+	
+	.main-menu{
+		display: block;
+	}
+	
+	.mobile-menu{
+		display: none;
+	}
+	
+	nav ul li{
+		display:inline-block;
+		border-bottom: 0;
+	}
+ 
+  .home .s-3 span{
+    color: #FAFAFA;
+  }
+
+}
+
+
+@media (max-width: 1460px){
+.wave{
+  height: 500px;
+}
+
+.home .about-title h2 {
+  left: 48%;
+}
+
+.fluid {
+  width: 38%;
+  right: 6%;
+  height: 50vh;
+ }
+}
+
+@media (max-width: 1280px){
+  .home .about-title h2 {
+    left: 46%;
+  }
+}
+
+@media (max-width: 1120px){
+  .home .s-3 h2{
+    font-weight: bold;
+    font-size: 8rem;
+    letter-spacing: 0.17em;
+    left: 48%;
+  }
+
+  .about-img img{
+    width: 70%;
+  }
+
+  .fluid {
+    width: 40%;
+    height: 25vh;
+    right: 10%;
+   }
+
+  .about-title h2{
+    left: 73%;
+  }
+
+  footer{
+    height: 450px;
+  }
+}
+
+@media (max-width: 1119px) and (min-width: 834px){
+  .home .s-3 h2{
+    font-size: 6rem;
+    letter-spacing: 0.15em;
+    left: 46%;
+   }
+
+   .fluid {
+    width: 40%;
+    height: 25vh;
+    right: 6%;
+   }
+
+}
+
+@media (max-width: 833px) and (min-width: 568px){
+  .home .s-1 p{
+    font-size: 32px;
+  }
+
+  .home .s-1 .fadein{
+    font-size: 32px;
+  }
+
+  .about-title{
+    margin: 0 auto;
+  }
+
+  .about-title h2{
+    position: unset;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .s-2 h2{
+    font-size: 6rem;
+  }
+
+  .home .s-3 span{
+    color: #262228;
+  }
+
+  .home .s-3 h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4rem;
+    left: 0;
+    position: static;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .s-3 .text{
+    text-align: center;
+  }
+
+  .s-3 .text-box a{
+    text-align: center;
+  }
+
+  .s-3 .arrow{
+    justify-content: center;
+  }
+
+  .s-3 .arrow img{
+    width: 20%;
+  }
+
+  .home .container{
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home .about-img img{
+    max-width: 100%;
+  }
+
+  .about .imgme img{
+    width: 60%;
+  }
+
+  .home .s-3 a{
+    margin-top: 2rem;
+  }
+
+  .about .imgme{
+      text-align: center;
+    }
+
+    .fluid {
+      width: 60%;
+      right: 20%;
+      height: 33vh;
+    }
+
+    footer{
+      height: 370px;
+    }
+
+    .w90{
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+ 
+
+
+@media (max-width: 567px){
+h1{
+  font-size: 3rem;
+}
+
+.padding-t7{
+  padding-top: 0;
+}
+
+nav a{
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.wave{
+  height: 300px;
+}
+
+.logo-name{
+  width: 215px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-name h2{
+  font-size: 24px;
+}
+
+.home .s-1 .fadein {
+  font-size: 32px;
+}
+
+.s-2 h2{
+  font-size: 6rem;
+}
+
+.home .s-3 h2{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 4rem;
+  left: 0;
+  position: static;
+  padding: 0;
+}
+
+.home .s-3 a{
+  margin-top: 2rem;
+  font-size: 16px;
+}
+
+.home .about-img img{
+  max-width: 100%;
+}
+
+footer{
+  height: 300px;
+}
+
+  .home .s-3 span{
+    color: #262228;
+  }
+
+  .about-title{
+    margin: 0 auto;
+  }
+
+  .about-title h2{
+    position: unset;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .fluid {
+    width: 66%;
+    right: 12%;
+  }
+
+  .about .s-4 p {
+    width: 100%;
+  }
+
+  .home .s-3 h2{
+   text-align: center;
+   margin: 0 auto;
+   font-size: 2rem;
+   left: 0;
+   padding: 0;
+  }
+
+  .s-3 .text{
+    text-align: center;
+  }
+
+  .home .container{
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about .name{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    width: 100%;
+  }
+
+    .about .imgme{
+      text-align: center;
+    }
+
+    .fluid {
+      width: 80%;
+      right: 15%;
+      height: 30vh;
+  }
+
+  .about .s-3 img{
+    padding: 0;
+  }
+  }
