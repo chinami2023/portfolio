@@ -345,7 +345,14 @@ max-width: 60%;
 .home .s-3 .text-box a{
   text-align: right;
   text-decoration: none;
+  justify-content: flex-end;
 }
+
+@-moz-document url-prefix() {
+  .home .s-3 .text-box a {
+    width: 26%;
+  }
+  }
 
 .home .s-3 .arrow{
   display: flex;
@@ -353,14 +360,14 @@ max-width: 60%;
 }
 
 .home .s-3 .arrow img{
-  width: 30%;
+  width: 26%;
   padding-right: 16px;
 }
 
-.home .s-3 .arrow a{
+/* .home .s-3 .arrow a{
  justify-content: flex-end;
  text-decoration: none;
-}
+} */
 
 .cp_arrows *, .cp_arrows *:before, .cp_arrows *:after {
 	-webkit-box-sizing: border-box;
@@ -698,20 +705,10 @@ max-width: 100%;
 .test a {
   color: #0bd;
 }
- 
-
-/* .go:hover{
-  color: #de9700;
-} */
 
 
 /* project-1 end */
 
-/* @media (min-width: 768px) {
-  .about .s-3 img{
-    max-width: 80%;
-  }
-} */
 
 /* responsive -  568px ↑ */
 @media (min-width: 568px) {
@@ -770,12 +767,6 @@ max-width: 100%;
   .home .about-img img{
     width: 70%;
   }
-
-  /* .fluid {
-    width: 40%;
-    height: 25vh;
-    right: 10%;
-   } */
 
   .about-title h2{
     left: 73%;
@@ -863,6 +854,13 @@ max-width: 100%;
   .home .about-img img{
     max-width: 100%;
   }
+
+  @-moz-document url-prefix() {
+    .home .s-3 .text-box a {
+      width: 48%;
+    }
+    }
+  
 
   .about .imgme img{
     width: 60%;
@@ -969,6 +967,12 @@ nav a{
   margin-top: 2rem;
   font-size: 16px;
 }
+
+@-moz-document url-prefix() {
+  .home .s-3 .text-box a{
+    width: 100%;
+  }
+  }
 
 .home .about-img img{
   width: 100%;
