@@ -86,6 +86,13 @@ section{
   padding: 10px 20px;
 }
 
+@-moz-document url-prefix() {
+  .logo-name h2 {
+    font-size: 32px;
+    padding: 2px 20px;
+  }
+}
+
 #page_top {
   position: fixed;
   right: 10px;
