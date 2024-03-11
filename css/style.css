@@ -31,6 +31,7 @@ h3{
 
 body{
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 p,a{
@@ -581,9 +582,9 @@ padding: 0 2rem;
 max-width: 100%;
 }
 
-.project .s-1 .w600{
+/* .project .s-1 .w600{
   width: 600px;
-}
+} */
 
 .project .s-1 .w600 p{
   width: 80%;
