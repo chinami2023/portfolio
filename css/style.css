@@ -1045,6 +1045,16 @@ footer{
     width: 100%;
   }
 
+  .about .padding-1{
+    padding: 0;
+    text-align: center;
+  }
+
+  .about .s-2 .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   p{
     font-size: 16px;
   }
@@ -1053,7 +1063,6 @@ footer{
     max-width: 200px;
     padding: 12px 30px;
     font-size: 16px;
-
   }
 
 
